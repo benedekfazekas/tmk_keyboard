@@ -1,1 +1,4 @@
+# pololu a-star
 make upload KEYMAP=qwerty_osx_bf USB=/dev/cu.usbmodem1421
+# teensy (older)
+OPT_DEFS=-DTEENSY make teensy KEYMAP=qwerty_win_a2_bf
